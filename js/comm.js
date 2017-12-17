@@ -25,7 +25,13 @@
 //     }
 // ]
 var servers = {
-    "iceServers": [{ "urls": "stun:numb.viagenie.ca" }]
+    "iceServers": [
+        {
+            "urls": "stun:numb.viagenie.ca",
+            "credential": "underworld057",
+            "username": "r.chaykovskiy@gmail.com"
+        }
+    ]
 };
 
 var myPC;
