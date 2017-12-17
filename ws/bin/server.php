@@ -19,7 +19,8 @@ $app = new Ratchet\App('localhost', 8080, '0.0.0.0');//App(hostname, port, 'whoC
 
 //create socket routes
 //route(uri, classInstance, arrOfAllowedOrigins)
-$app->route('/comm', new Comm, $allowed_origins);
+//$app->route('/comm', new Comm, $allowed_origins);
+$app->route('/comm', new Comm, ['*']);
 
 //run websocket
 $app->run();
