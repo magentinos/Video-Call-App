@@ -27,7 +27,7 @@
 var servers = {
     "iceServers": [
         {
-            "urls": "stun:numb.viagenie.ca",
+            "urls": "turn:numb.viagenie.ca",
             "credential": "underworld057",
             "username": "r.chaykovskiy@gmail.com"
         }
