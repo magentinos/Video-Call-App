@@ -25,7 +25,7 @@
 //     }
 // ]
 var servers = {
-    "iceServers": [{ "urls": "stun:stun.1.google.com:19302" }]
+    "iceServers": [{ "urls": "stun:numb.viagenie.ca" }]
 };
 
 var myPC;
